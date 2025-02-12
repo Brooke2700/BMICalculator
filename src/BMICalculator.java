@@ -39,7 +39,7 @@ public class BMICalculator {
         kgWeight = poundWeight/2.2;
         bmi = kgWeight/(metreHeight*metreHeight);
         
-        // report results
+        // report results of the BMI
         System.out.println("You said you were " + feet + "' " + inches + "\" tall.");
         System.out.println("You said you weighed " + poundWeight + " lb.");
         System.out.println("Your height in metres is " + metreHeight + ".");
